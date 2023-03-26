@@ -1,0 +1,48 @@
+.result {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    color: var(--c5);
+    padding: 30px;
+    border-radius: 25px;
+    background: var(--bg-gradient-1);
+}
+
+.result h1 {
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.result .circle {
+    background: var(--bg-gradient-2);
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.result .circle p {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.result .circle span {
+    font-size: .875rem;
+}
+
+.result h2 {
+    color: #ffffff;
+}
+
+.result > p {
+    font-size: .875rem;
+    max-width: 200px;
+    margin: 0 auto;
+}

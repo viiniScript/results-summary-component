@@ -1,0 +1,54 @@
+:root {
+    --c1: #c9594c;
+    --c2: #eebb44;
+    --c3: #0fc5af;
+    --c4: #3838aa;
+    --c5: #c8c7ff;
+
+    --bg-1: #FFF6F5;
+    --bg-2: #FFFBF2;
+    --bg-3: #F2FBFA;
+    --bg-4: #F3F3FB;
+    --bg-5: #303b5a;
+    --bg-gradient-1: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    --bg-gradient-2: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+body, h1, h2, p, ul {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    width: 600px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
